@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    text-align:center;
+    color:green;
+}
+.navbar{
+    display:flex;
+    color:white;
+    background-color:green;
+    justify-content:space-evenly;
+}
+p{
+    transition:0.2s ease-in;
+}
+p:hover{
+    font-size:18px;
+    color:greenyellow;
+    background-color:green;
+    text-decoration:underline;
+}
+#item{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    padding:20px 15px;
+    grid-column-gap:20px;
+    grid-row-gap:15px;
+}
+#items img{
+    width:100%;
+    height: 120px;
+    object-fit:hover;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+#items img:hover{
+    transform:scale(1.08);
+}
+#items h4{
+    padding:5px;
+    text-align:center;
+}
+#items button{
+    padding:5px 30px;
+    border:none;
+    outline:none;
+    background-color:green;
+    color:white;
+    cursor:pointer;
+    border-radius:4px;
+    font-size:20px;
+    display:block;
+    margin:0 auto;
+    transition:0.2s all;
+}
+#items button:hover{
+    transform:scale(1.08);
+}
+.cart button {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding:5px 30px;
+    border:none;
+    outline:none;
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    border-radius:4px;
+    font-size:20px;
+    display:block;
+    margin:0 auto;
+    transition:0.2s all;
+}
+.rem button{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding:5px 30px;
+    border:none;
+    outline:none;
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    border-radius:4px;
+    font-size:20px;
+    display:block;
+    margin:0 auto;
+    transition:0.2s all;
+}
